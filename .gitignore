@@ -62,3 +62,4 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 .DS_Store
+.tweet-cache/

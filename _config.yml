@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Computer Aided Biotech Group
+title: Computer Aided Biotechnology Group
 email: niso@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   TBD
@@ -28,8 +28,9 @@ twitter_username: phantomas1234
 github_username:  phantomas1234
 
 # Build settings
-theme: minima
-plugins: ['jekyll/scholar']
+# theme: minima
+remote_theme: aterenin/minima-reboot
+plugins: ["jekyll/scholar", "jekyll-remote-theme", "jekyll-twitter-plugin"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,6 +52,15 @@ plugins: ['jekyll/scholar']
 #   - vendor/gems/
 #   - vendor/ruby/
 
+header_pages:
+  - research.md
+  - group.md
+  - publications.md
+  - software.md
+  - teaching.md 
+  - news.md
+  - contact.md
+
 collections:
   people:
     output: true
@@ -60,3 +70,5 @@ collections:
 scholar:
   style: nature-no-et-al
   bibliography_template: bib
+  group_by: year
+  group_order: descending
