@@ -29,8 +29,7 @@ github_username:  phantomas1234
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: ['jekyll/scholar']
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,3 +54,6 @@ plugins:
 collections:
   people:
     output: true
+
+scholar:
+  style: modern-language-association

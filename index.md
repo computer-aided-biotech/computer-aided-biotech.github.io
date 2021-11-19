@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<img class="picture" src="includes/group.jpg">
