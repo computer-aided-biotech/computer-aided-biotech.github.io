@@ -56,4 +56,5 @@ collections:
     output: true
 
 scholar:
-  style: modern-language-association
+  style: nature-no-et-al
+  bibliography_template: bib

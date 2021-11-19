@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<img class="picture" src="includes/group.jpg">
+<img class="picture" src="assets/images/group-nov-2021.jpg">

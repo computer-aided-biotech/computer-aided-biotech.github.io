@@ -1,0 +1,12 @@
+---
+---
+{{reference}}
+
+<div>
+    {% if entry.doi %}
+    <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi: {{ entry.doi }}</a></span>
+    {% endif %}
+    {% if entry.url %}
+    <span><a href="{{ entry.url }}">{{ entry.url }}</a></span>
+    {% endif %}
+</div>
