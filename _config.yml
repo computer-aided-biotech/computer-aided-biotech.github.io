@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CAB group
+title: Computer Aided Biotech Group
 email: niso@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   TBD
@@ -53,6 +53,8 @@ plugins: ['jekyll/scholar']
 
 collections:
   people:
+    output: true
+  alumni:
     output: true
 
 scholar:
