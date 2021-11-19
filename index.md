@@ -36,7 +36,7 @@ layout: home
       
     </div>
     <div class="col-sm">
-      {% twitter https://twitter.com/phantomas1234 maxwidth=500 limit=2 %}
+      {% twitter https://twitter.com/phantomas1234 limit=2 %}
     </div>
   </div>
 </div>
