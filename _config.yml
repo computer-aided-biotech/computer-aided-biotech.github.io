@@ -70,5 +70,4 @@ collections:
 scholar:
   style: nature-no-et-al
   bibliography_template: bib
-  group_by: year
   group_order: descending
