@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".jumbotron {\n    background-image: url(\"images/group-nov-2021.jpg\");\n    background-size: cover;\n  }"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,UAAU,CAAC,EACP,gBAAgB,EAAE,gCAAgC,EAClD,eAAe,EAAE,KAAK,GACvB"
+}
